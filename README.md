@@ -22,8 +22,7 @@ Open source links page, customizable via JSON. Made with Astro 5 and Tailwind 4.
 
 </div>
 
-![AstroLinkHub Screenshot](/public/screenshot.webp)
-
+![Screenshot](/public/screenshot-2025.webp)
 
 ## Table of Contents
 
@@ -45,19 +44,18 @@ Open source links page, customizable via JSON. Made with Astro 5 and Tailwind 4.
     <li><a href="#license">License</a></li>
   </ol>
 
-
 ## About The Project
 
 > [!IMPORTANT]
 > I'm glad to announce that this project is available on [Astro Themes](https://astro.build/themes/details/miduwind/)! 🚀
 
 After the amazing reception of [AstroLinkHub](https://astrolinkhub.netlify.app/) I've decided to bring you an improved, modern and fully customizable link page. Inspired by the work of the talented [Midudev](https://midu.dev/) and his [Tailwind 2025 course](https://www.youtube.com/watch?v=R5EXap3vNDA), I introduce you to [Miduwind](https://miduwind.netlify.app/):
+
 - Using Astro (v5.7) and Tailwind (v4.1)
 - Create your very own links page for FREE
 - And most importantly, update it very easily using JSON
 
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
-
 
 ## Getting Started
 
@@ -68,9 +66,9 @@ After the amazing reception of [AstroLinkHub](https://astrolinkhub.netlify.app/)
 
 Personally I prefer using `pnpm` instead `npm` and to install it you can use:
 
-  ```sh
-  npm install -g pnpm
-  ```
+```sh
+npm install -g pnpm
+```
 
 ### Installation
 
@@ -87,9 +85,8 @@ Personally I prefer using `pnpm` instead `npm` and to install it you can use:
    ```sh
    pnpm dev
    ```
-   
-<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
 
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
 
 ## JSON
 
@@ -101,7 +98,6 @@ The best part of Miduwind is that you can modify every aspect of the website ver
 - **links** -> Highlight your links with a gradient background and a logo.
 - **footer** -> Edit the copyright and URL of your choice (Made just for you 😎).
 
-
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -110,7 +106,6 @@ If you have a suggestion that would make this better, please fork the repo and c
 **Don't forget to give the project a star!** ⭐
 
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
-
 
 ## License
 
