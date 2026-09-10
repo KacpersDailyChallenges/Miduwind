@@ -12,54 +12,27 @@ interface LinkProps {
 import SocialCard from "@/components/grid/SocialCard.astro";
 import GridTwoOne from "@/components/grid/GridTwoOne.astro";
 import GridOneTwo from "@/components/grid/GridOneTwo.astro";
-import { links } from "@/data.json";
+import { links, globalSettings } from "@/data.json";
 
-const typedLinks = links satisfies LinkProps[];
-// pobieramy 12 elementów
-const [
-    one, two,
-    three, four,
-    five, six,
-    seven, eight,
-    nine, ten,
-    eleven, twelve
-] = typedLinks;
+// Grupujemy linki po 2 – jedna para = jeden rząd kafelków
+const pairs: LinkProps[][] = [];
+for (let i = 0; i < links.length; i += 2) {
+    pairs.push(links.slice(i, i + 2));
+}
 ---
 
-<section class="flex flex-col w-full max-w-[60rem] gap-2 mx-auto">
-    <!-- 1 -->
-    <GridTwoOne>
-        <SocialCard {...one} />
-        <SocialCard {...two} />
-    </GridTwoOne>
-
-    <!-- 2 -->
-    <GridOneTwo>
-        <SocialCard {...three} />
-        <SocialCard {...four} />
-    </GridOneTwo>
-
-    <!-- 3 -->
-    <GridTwoOne>
-        <SocialCard {...five} />
-        <SocialCard {...six} />
-    </GridTwoOne>
-
-    <!-- 4 -->
-    <GridOneTwo>
-        <SocialCard {...seven} />
-        <SocialCard {...eight} />
-    </GridOneTwo>
-
-    <!-- 5 -->
-    <GridTwoOne>
-        <SocialCard {...nine} />
-        <SocialCard {...ten} />
-    </GridTwoOne>
-
-    <!-- 6 -->
-    <GridOneTwo>
-        <SocialCard {...eleven} />
-        <SocialCard {...twelve} />
-    </GridOneTwo>
+<section class="flex flex-col w-full gap-2 mx-auto">
+    {
+        pairs.map((pair, i) => {
+            // Parzyste rzędy (0, 2, 4...) -> 2fr/1fr, nieparzyste -> 1fr/2fr
+            const Grid = i % 2 === 0 ? GridTwoOne : GridOneTwo;
+            return (
+                <Grid>
+                    {pair.map((link) => (
+                        <SocialCard {...link} globalSettings={globalSettings} />
+                    ))}
+                </Grid>
+            );
+        })
+    }
 </section>
