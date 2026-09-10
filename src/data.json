@@ -21,7 +21,9 @@
         "textColor": "#F0F0F0"
     },
     "globalSettings": {
-        "logoZoom": 1.2
+        "logoZoom": 1.2,
+        "logoDistanceFromRight": "-0.75rem",
+        "logoDistanceFromBottom": "-0.75rem"
     },
     "links": [
         {
@@ -118,7 +120,7 @@
             "network": "Github",
             "message": "Use this template and start it! ⭐",
             "url": "https://github.com/MarcosKlender/Miduwind",
-            "logo": "/socialMediaLogos-White-720x720px/Github.svg",
+            "logo": "/Github.svg",
             "topColor": "#333333",
             "middleColor": "",
             "bottomColor": "#0D1117"
@@ -127,7 +129,7 @@
             "network": "Astro",
             "message": "See more themes!",
             "url": "https://astro.build/themes/author/1479",
-            "logo": "/socialMediaLogos-White-720x720px/AstroLogo.svg",
+            "logo": "/AstroLogo.svg",
             "topColor": "#6F42C1",
             "middleColor": "",
             "bottomColor": "#0E0E30"
