@@ -28,7 +28,7 @@
             "network": "Youtube",
             "message": "Subscribe me!",
             "url": "https://www.youtube.com/@kacpers.daily.challenges",
-            "logo": "/Youtube.svg",
+            "logo": "/socialMediaLogos-White-720x720px/YouTube.png",
             "topColor": "#D93025",
             "middleColor": "",
             "bottomColor": "#8B1C13"
@@ -46,7 +46,7 @@
             "network": "Rumble",
             "message": "Follow me!",
             "url": "https://rumble.com/user/kacpers_daily_challenges",
-            "logo": "/Rumble.svg",
+            "logo": "/socialMediaLogos-White-720x720px/Rumble.png",
             "topColor": "#94c359",
             "middleColor": "",
             "bottomColor": "#6d9041"
@@ -55,7 +55,7 @@
             "network": "Facebook",
             "message": "Follow me!",
             "url": "https://www.facebook.com/kacpers.daily.challenges/",
-            "logo": "/Facebook.svg",
+            "logo": "/socialMediaLogos-White-720x720px/Facebook.png",
             "topColor": "#316bf5",
             "middleColor": "",
             "bottomColor": "#2654c2"
@@ -64,7 +64,7 @@
             "network": "Instagram",
             "message": "Follow me!",
             "url": "https://www.instagram.com/kacpers.daily.challenges/",
-            "logo": "/Instagram.svg",
+            "logo": "/socialMediaLogos-White-720x720px/Instagram.png",
             "topColor": "#F58529",
             "middleColor": "#DD2A7B",
             "bottomColor": "#8134AF"
@@ -73,7 +73,7 @@
             "network": "LinkedIn",
             "message": "Let's connect!",
             "url": "https://www.linkedin.com/in/kacper-s-daily-challenges-0267992b0/",
-            "logo": "/LinkedIn.svg",
+            "logo": "/socialMediaLogos-White-720x720px/LinkedIn.png",
             "topColor": "#0077B5",
             "middleColor": "",
             "bottomColor": "#004471"
@@ -82,7 +82,7 @@
             "network": "TikTok",
             "message": "Follow me!",
             "url": "https://www.tiktok.com/@kacpers.daily.challenges",
-            "logo": "/TikTok.svg",
+            "logo": "/socialMediaLogos-White-720x720px/TikTok.png",
             "topColor": "#4c4c4c",
             "middleColor": "",
             "bottomColor": "#000000"
@@ -91,7 +91,7 @@
             "network": "X",
             "message": "Follow me!",
             "url": "https://x.com/kacpers_chlgs",
-            "logo": "/X.svg",
+            "logo": "/socialMediaLogos-White-720x720px/X.png",
             "topColor": "#4c4c4c",
             "middleColor": "",
             "bottomColor": "#000000"
@@ -100,7 +100,7 @@
             "network": "Empty",
             "message": "Follow me!",
             "url": "https://x.com/kacpers_chlgs",
-            "logo": "/X.svg",
+            "logo": "/socialMediaLogos-White-720x720px/X.png",
             "topColor": "#4c4c4c",
             "middleColor": "",
             "bottomColor": "#000000"
@@ -109,7 +109,7 @@
             "network": "Empty",
             "message": "Follow me!",
             "url": "https://x.com/kacpers_chlgs",
-            "logo": "/X.svg",
+            "logo": "/socialMediaLogos-White-720x720px/X.png",
             "topColor": "#4c4c4c",
             "middleColor": "",
             "bottomColor": "#000000"
@@ -118,7 +118,7 @@
             "network": "Github",
             "message": "Use this template and start it! ⭐",
             "url": "https://github.com/MarcosKlender/Miduwind",
-            "logo": "/Github.svg",
+            "logo": "/socialMediaLogos-White-720x720px/Github.svg",
             "topColor": "#333333",
             "middleColor": "",
             "bottomColor": "#0D1117"
@@ -127,7 +127,7 @@
             "network": "Astro",
             "message": "See more themes!",
             "url": "https://astro.build/themes/author/1479",
-            "logo": "/AstroLogo.svg",
+            "logo": "/socialMediaLogos-White-720x720px/AstroLogo.svg",
             "topColor": "#6F42C1",
             "middleColor": "",
             "bottomColor": "#0E0E30"
