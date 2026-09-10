@@ -15,23 +15,24 @@ const { image, alt, username, accentColor, setMonospace, setVerified } =
     header satisfies HeaderProps;
 ---
 
-<section class="flex flex-col items-center justify-center pt-4">
+<section class="flex flex-col items-center justify-center pt-12">
     <div class="relative">
-        <!-- Pomarańczowe koło wystające 1 rem (4 x 0.25 rem) dookoła -->
         <div class="absolute -inset-4 rounded-full bg-orange-500"></div>
         <img
             src={image}
             alt={alt}
             class="relative w-70 rounded-full mask-b-from-90%"
         />
+        <!-- Badge zostaje na zdjęciu (absolutnie przyklejony do dołu) -->
+        <span
+            class="absolute -bottom-3 left-1/2 -translate-x-1/2 z-10 flex gap-1 px-3 py-0.5 header-custom bg-black/60 text-lg border-1 rounded-xl"
+        >
+            {setVerified && <VerifiedIcon />}
+        </span>
     </div>
-    <span
-        class=`flex gap-1 px-3 py-0.5 -mt-4 header-custom z-1 bg-black/60
-        text-lg border-1 rounded-xl ${setMonospace ? "font-mono": "" }`
-    >
-        {username}
-        {setVerified && <VerifiedIcon />}
-    </span>
+
+    <!-- Napis osobno, 2 rem przerwy nad nim -->
+    <p class="mt-8 text-xl font-bold header-custom">{username}</p>
 </section>
 
 <style define:vars={{ accentColor }}>
