@@ -21,9 +21,9 @@
         "textColor": "#F0F0F0"
     },
     "globalSettings": {
-        "logoZoom": 0.9,
-        "logoDistanceFromRight": "1rem",
-        "logoDistanceFromBottom": "1rem"
+        "logoZoom": 0.7,
+        "logoDistanceFromRight": "0.5rem",
+        "logoDistanceFromBottom": "0.5rem"
     },
     "links": [
         {
