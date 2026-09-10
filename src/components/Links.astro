@@ -15,20 +15,52 @@ import GridOneTwo from "@/components/grid/GridOneTwo.astro";
 import { links } from "@/data.json";
 
 const typedLinks = links satisfies LinkProps[];
-const [one, two, three, four, five, six] = typedLinks;
+// pobieramy 12 elementów
+const [
+    one, two,
+    three, four,
+    five, six,
+    seven, eight,
+    nine, ten,
+    eleven, twelve
+] = typedLinks;
 ---
 
 <section class="flex flex-col w-full gap-2 mx-auto md:w-3/4 lg:w-2/3 2xl:w-4/5">
+
+    <!-- 1 -->
     <GridTwoOne>
         <SocialCard {...one} />
         <SocialCard {...two} />
     </GridTwoOne>
+
+    <!-- 2 -->
     <GridOneTwo>
         <SocialCard {...three} />
         <SocialCard {...four} />
     </GridOneTwo>
+
+    <!-- 3 -->
     <GridTwoOne>
         <SocialCard {...five} />
         <SocialCard {...six} />
     </GridTwoOne>
+
+    <!-- 4 -->
+    <GridOneTwo>
+        <SocialCard {...seven} />
+        <SocialCard {...eight} />
+    </GridOneTwo>
+
+    <!-- 5 -->
+    <GridTwoOne>
+        <SocialCard {...nine} />
+        <SocialCard {...ten} />
+    </GridTwoOne>
+
+    <!-- 6 -->
+    <GridOneTwo>
+        <SocialCard {...eleven} />
+        <SocialCard {...twelve} />
+    </GridOneTwo>
 </section>

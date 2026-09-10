@@ -95,6 +95,42 @@
             "topColor": "#4c4c4c",
             "middleColor": "",
             "bottomColor": "#000000"
+        },
+        {
+            "network": "Empty",
+            "message": "Follow me!",
+            "url": "https://x.com/kacpers_chlgs",
+            "logo": "/X.svg",
+            "topColor": "#4c4c4c",
+            "middleColor": "",
+            "bottomColor": "#000000"
+        },
+        {
+            "network": "Empty",
+            "message": "Follow me!",
+            "url": "https://x.com/kacpers_chlgs",
+            "logo": "/X.svg",
+            "topColor": "#4c4c4c",
+            "middleColor": "",
+            "bottomColor": "#000000"
+        },
+        {
+            "network": "Github",
+            "message": "Use this template and start it! ⭐",
+            "url": "https://github.com/MarcosKlender/Miduwind",
+            "logo": "/Github.svg",
+            "topColor": "#333333",
+            "middleColor": "",
+            "bottomColor": "#0D1117"
+        },
+        {
+            "network": "Astro",
+            "message": "See more themes!",
+            "url": "https://astro.build/themes/author/1479",
+            "logo": "/AstroLogo.svg",
+            "topColor": "#6F42C1",
+            "middleColor": "",
+            "bottomColor": "#0E0E30"
         }
     ],
     "footer": {
