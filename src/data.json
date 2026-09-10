@@ -1,7 +1,7 @@
 {
     "html": {
         "lang": "en",
-        "title": "Marcos Klender Carrasco",
+        "title": "Kacpers Daily Challenges",
         "description": "Follow me on all my socials",
         "favicon": "/favicon.svg",
         "topColor": "#000811",
@@ -9,22 +9,22 @@
     },
     "header": {
         "image": "/photo.webp",
-        "alt": "The author of this astro template.",
-        "username": "@marcosklender",
+        "alt": "Photo of Kacpers Daily Challenges",
+        "username": "Follow me on all my socials",
         "accentColor": "#00BCFF",
         "setMonospace": true,
         "setVerified": true
     },
     "about": {
-        "name": "Marcos Klender Carrasco",
-        "summary": "Systems Engineer with a Master's Degree in Software Engineering. More than 8 years of experience in software development.",
+        "name": "Kacpers Daily Challenges",
+        "summary": "Hey there! \"Kacper's Daily Challenges\" is the place to find inspiration, motivation, and positive vibes for your daily journey. Follow me on:",
         "textColor": "#F0F0F0"
     },
     "links": [
         {
             "network": "LinkedIn",
             "message": "Let's connect!",
-            "url": "https://www.linkedin.com/in/marcosklender/?locale=en_US",
+            "url": "https://www.linkedin.com/in/kacper-s-daily-challenges-0267992b0/",
             "logo": "/LinkedIn.svg",
             "topColor": "#0077B5",
             "middleColor": "",
@@ -33,7 +33,7 @@
         {
             "network": "Instagram",
             "message": "Follow me!",
-            "url": "https://www.instagram.com/marcosklender",
+            "url": "https://www.instagram.com/kacpers.daily.challenges/",
             "logo": "/Instagram.svg",
             "topColor": "#F58529",
             "middleColor": "#DD2A7B",
@@ -42,7 +42,7 @@
         {
             "network": "Gmail",
             "message": "Contact me anytime!",
-            "url": "mailto:marcosklender@gmail.com",
+            "url": "mailto:kacpers.daily.challenges@gmail.com",
             "logo": "/Gmail.svg",
             "topColor": "#D93025",
             "middleColor": "",
