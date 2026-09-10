@@ -12,7 +12,8 @@ const { name, summary, textColor } = about satisfies AboutProps;
 
 <section class="py-4 text-center about-custom">
     <h1 class="text-2xl font-bold">{name}</h1>
-    <p class="pt-2.5 text-balance">{summary}</p>
+    <!-- Zawsze min. 25% węższe niż siatka kafelków (Links.astro ma teraz w-full, czyli 100% szerokości body) -->
+    <p class="pt-2.5 text-balance mx-auto w-3/4 md:w-3/5 lg:w-1/2 2xl:w-2/5">{summary}</p>
 </section>
 
 <style define:vars={{ textColor }}>

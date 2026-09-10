@@ -22,8 +22,8 @@
     },
     "globalSettings": {
         "logoZoom": 1.2,
-        "logoDistanceFromRight": "-0.75rem",
-        "logoDistanceFromBottom": "-0.75rem"
+        "logoDistanceFromRight": "2rem",
+        "logoDistanceFromBottom": "5rem"
     },
     "links": [
         {
