@@ -16,7 +16,15 @@ const { image, alt, username, accentColor, setMonospace, setVerified } =
 ---
 
 <section class="flex flex-col items-center justify-center pt-4">
-    <img src={image} alt={alt} class="w-70 mask-b-from-90%" />
+    <div class="relative">
+        <!-- Pomarańczowe koło wystające 1 rem (4 x 0.25 rem) dookoła -->
+        <div class="absolute -inset-4 rounded-full bg-orange-500"></div>
+        <img
+            src={image}
+            alt={alt}
+            class="relative w-70 rounded-full mask-b-from-90%"
+        />
+    </div>
     <span
         class=`flex gap-1 px-3 py-0.5 -mt-4 header-custom z-1 bg-black/60
         text-lg border-1 rounded-xl ${setMonospace ? "font-mono": "" }`
