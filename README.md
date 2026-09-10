@@ -107,6 +107,16 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
 
+## Credits
+Based on [Miduwind](https://github.com/MarcosKlender/Miduwind) by MarcosKlender (MIT License).
+Modified by KacperDailyChallenges – changes:
+- adding more tiles,
+- smoothing the scaling when the page width changes,
+- adapting descriptions and links to KacperDailyChallenges needs,
+- replacing the icons with those from the brand assets of each social media platform.
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+
 ## License
 
 Distributed under the MIT License. `Open Source` is pretty self-descriptive.

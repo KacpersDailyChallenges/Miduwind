@@ -117,15 +117,6 @@
             "bottomColor": "#000000"
         },
         {
-            "network": "Github",
-            "message": "Use this template and start it! ⭐",
-            "url": "https://github.com/MarcosKlender/Miduwind",
-            "logo": "/Github.svg",
-            "topColor": "#333333",
-            "middleColor": "",
-            "bottomColor": "#0D1117"
-        },
-        {
             "network": "Astro",
             "message": "See more themes!",
             "url": "https://astro.build/themes/author/1479",
@@ -133,11 +124,29 @@
             "topColor": "#6F42C1",
             "middleColor": "",
             "bottomColor": "#0E0E30"
+        },
+        {
+            "network": "Github",
+            "message": "Use this template and star it! ⭐",
+            "url": "https://github.com/KacpersDailyChallenges/Miduwind",
+            "logo": "/Github.svg",
+            "topColor": "#333333",
+            "middleColor": "",
+            "bottomColor": "#0D1117"
         }
+        
     ],
     "footer": {
-        "credits": "Made by MarcosKlender",
-        "url": "https://marcosklender.com",
-        "textColor": "#F0F0F0"
+    "textColor": "#F0F0F0",
+    "items": [
+        {
+            "credits": "Made by MarcosKlender",
+            "url": "https://marcosklender.com"
+        },
+        {
+            "credits": "Modified by Kacper",
+            "url": "https://github.com/KacpersDailyChallenges/Miduwind"
+        }
+    ]
     }
 }
