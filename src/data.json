@@ -72,15 +72,6 @@
             "bottomColor": "#8134AF"
         },
         {
-            "network": "LinkedIn",
-            "message": "Let's connect!",
-            "url": "https://www.linkedin.com/in/kacper-s-daily-challenges-0267992b0/",
-            "logo": "/socialMediaLogos-White-720x720px/LinkedIn.png",
-            "topColor": "#0077B5",
-            "middleColor": "",
-            "bottomColor": "#004471"
-        },
-        {
             "network": "TikTok",
             "message": "Follow me!",
             "url": "https://www.tiktok.com/@kacpers.daily.challenges",
@@ -99,6 +90,15 @@
             "bottomColor": "#000000"
         },
         {
+            "network": "Bluesky",
+            "message": "Follow me!",
+            "url": "https://bsky.app/profile/kacperschallenges.bsky.social",
+            "logo": "/socialMediaLogos-White-720x720px/Bluesky.png",
+            "topColor": "#0f73ff",
+            "middleColor": "",
+            "bottomColor": "#0a50b2"
+        },
+        {
             "network": "Kick",
             "message": "Follow me!",
             "url": "https://kick.com/kacpers-daily-challenges",
@@ -115,6 +115,15 @@
             "topColor": "#9046ff",
             "middleColor": "",
             "bottomColor": "#6430b2"
+        },
+        {
+            "network": "LinkedIn",
+            "message": "Let's connect!",
+            "url": "https://www.linkedin.com/in/kacper-s-daily-challenges-0267992b0/",
+            "logo": "/socialMediaLogos-White-720x720px/LinkedIn.png",
+            "topColor": "#0077B5",
+            "middleColor": "",
+            "bottomColor": "#004471"
         },
         {
             "network": "Astro",
