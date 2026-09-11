@@ -99,22 +99,22 @@
             "bottomColor": "#000000"
         },
         {
-            "network": "Empty",
+            "network": "Kick",
             "message": "Follow me!",
-            "url": "https://x.com/kacpers_chlgs",
-            "logo": "/socialMediaLogos-White-720x720px/X.png",
-            "topColor": "#4c4c4c",
+            "url": "https://kick.com/kacpers-daily-challenges",
+            "logo": "/socialMediaLogos-White-720x720px/Kick.png",
+            "topColor": "#8af654",
             "middleColor": "",
-            "bottomColor": "#000000"
+            "bottomColor": "#5fa939"
         },
         {
-            "network": "Empty",
+            "network": "Twitch",
             "message": "Follow me!",
-            "url": "https://x.com/kacpers_chlgs",
-            "logo": "/socialMediaLogos-White-720x720px/X.png",
-            "topColor": "#4c4c4c",
+            "url": "https://www.twitch.tv/kacpers_daily_challenges",
+            "logo": "/socialMediaLogos-White-720x720px/Twitch.png",
+            "topColor": "#9046ff",
             "middleColor": "",
-            "bottomColor": "#000000"
+            "bottomColor": "#6430b2"
         },
         {
             "network": "Astro",
