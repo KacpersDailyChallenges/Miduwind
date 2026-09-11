@@ -129,19 +129,10 @@
             "network": "",
             "message": "",
             "url": "",
-            "logo": "",
+            "logo": "/socialMediaLogos-White-720x720px/KacpersDailyChallenges-orange.png",
             "topColor": "#aeaeae",
             "middleColor": "",
             "bottomColor": "#656565"
-        },
-        {
-            "network": "Astro",
-            "message": "See more themes!",
-            "url": "https://astro.build/themes/author/1479",
-            "logo": "/AstroLogo.svg",
-            "topColor": "#6F42C1",
-            "middleColor": "",
-            "bottomColor": "#0E0E30"
         },
         {
             "network": "Github",
@@ -151,8 +142,16 @@
             "topColor": "#333333",
             "middleColor": "",
             "bottomColor": "#0D1117"
+        },
+        {
+            "network": "Astro",
+            "message": "See more themes!",
+            "url": "https://astro.build/themes/author/1479",
+            "logo": "/AstroLogo.svg",
+            "topColor": "#6F42C1",
+            "middleColor": "",
+            "bottomColor": "#0E0E30"
         }
-        
     ],
     "footer": {
     "textColor": "#F0F0F0",
