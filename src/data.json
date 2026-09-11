@@ -21,7 +21,7 @@
         "textColor": "#F0F0F0"
     },
     "globalSettings": {
-        "logoZoom": 0.6,
+        "logoZoom": 0.4,
         "logoDistanceFromRight": "0.5rem",
         "logoDistanceFromBottom": "0.5rem"
     },
@@ -130,9 +130,9 @@
             "message": "",
             "url": "",
             "logo": "",
-            "topColor": "#4c4c4c",
+            "topColor": "#aeaeae",
             "middleColor": "",
-            "bottomColor": "#000000"
+            "bottomColor": "#656565"
         },
         {
             "network": "Astro",
