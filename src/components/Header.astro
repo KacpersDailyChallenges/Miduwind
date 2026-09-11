@@ -15,7 +15,7 @@ const { image, alt, username, accentColor, setMonospace, setVerified } =
     header satisfies HeaderProps;
 ---
 
-<section class="flex flex-col items-center justify-center pt-12">
+<section class="flex flex-col items-center justify-center pt-12 pb-8">
     <div class="relative">
         <div class="absolute -inset-4 rounded-full bg-orange-500"></div>
         <img
@@ -23,16 +23,14 @@ const { image, alt, username, accentColor, setMonospace, setVerified } =
             alt={alt}
             class="relative w-70 rounded-full mask-b-from-90%"
         />
-        <!-- Badge zostaje na zdjęciu (absolutnie przyklejony do dołu) -->
+        <!-- Cały badge (tekst + ikona) przyklejony do dołu zdjęcia -->
         <span
             class="absolute -bottom-3 left-1/2 -translate-x-1/2 z-10 flex gap-1 px-3 py-0.5 header-custom bg-black/60 text-lg border-1 rounded-xl"
         >
+            {username}
             {setVerified && <VerifiedIcon />}
         </span>
     </div>
-
-    <!-- Napis osobno, 2 rem przerwy nad nim -->
-    <p class="mt-8 text-xl font-bold header-custom">{username}</p>
 </section>
 
 <style define:vars={{ accentColor }}>
