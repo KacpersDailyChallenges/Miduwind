@@ -126,6 +126,15 @@
             "bottomColor": "#004471"
         },
         {
+            "network": "",
+            "message": "",
+            "url": "",
+            "logo": "",
+            "topColor": "#4c4c4c",
+            "middleColor": "",
+            "bottomColor": "#000000"
+        },
+        {
             "network": "Astro",
             "message": "See more themes!",
             "url": "https://astro.build/themes/author/1479",
