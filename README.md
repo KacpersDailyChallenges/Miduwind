@@ -22,7 +22,7 @@ Open source links page, customizable via JSON. Made with Astro 5 and Tailwind 4.
 
 </div>
 
-![Screenshot](/public/screenshot-2025.webp)
+![Screenshot](/public/screenshot.png)
 
 ## Table of Contents
 
@@ -46,16 +46,20 @@ Open source links page, customizable via JSON. Made with Astro 5 and Tailwind 4.
 
 ## About The Project
 
-> [!IMPORTANT]
-> I'm glad to announce that this project is available on [Astro Themes](https://astro.build/themes/details/miduwind/)! 🚀
+While looking for a clean way to build my own link-in-bio page, I came across
+[Miduwind](https://github.com/MarcosKlender/Miduwind) — an open-source template
+created by [MarcosKlender](https://marcosklender.com) — and honestly thought it
+was a fantastic piece of work: modern, polished, and refreshingly easy to
+customize through a single JSON file. It's exactly the kind of template that
+made me want to fork it rather than start from scratch.
 
-After the amazing reception of [AstroLinkHub](https://astrolinkhub.netlify.app/) I've decided to bring you an improved, modern and fully customizable link page. Inspired by the work of the talented [Midudev](https://midu.dev/) and his [Tailwind 2025 course](https://www.youtube.com/watch?v=R5EXap3vNDA), I introduce you to [Miduwind](https://miduwind.netlify.app/):
+So I did — I forked Miduwind and adapted it into my own personal links page for
+**Kacpers Daily Challenges**, tweaking the design and adding a few features
+along the way (see [Credits](#credits) for the full list of changes):
 
-- Using Astro (v5.7) and Tailwind (v4.1)
-- Create your very own links page for FREE
-- And most importantly, update it very easily using JSON
-
-<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+- Built with Astro (v5.7) and Tailwind (v4.1)
+- Fully customizable via a single `data.json` file
+- Free and open source — feel free to fork it too!
 
 ## Getting Started
 
@@ -74,7 +78,7 @@ npm install -g pnpm
 
 1. Clone this repo to your computer:
    ```sh
-   git clone git@github.com:MarcosKlender/Miduwind.git
+   git clone git@github.com:KacpersDailyChallenges/Miduwind.git
    ```
 2. Install Astro dependencies:
    ```sh
@@ -108,12 +112,33 @@ If you have a suggestion that would make this better, please fork the repo and c
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
 
 ## Credits
+
 Based on [Miduwind](https://github.com/MarcosKlender/Miduwind) by MarcosKlender (MIT License).
-Modified by KacperDailyChallenges – changes:
-- adding more tiles,
-- smoothing the scaling when the page width changes,
-- adapting descriptions and links to KacperDailyChallenges needs,
-- replacing the icons with those from the brand assets of each social media platform.
+
+Modified by KacperDailyChallenges:
+- **Redesigned profile header** – circular avatar with an accent-colored glow and a
+  username badge anchored to the bottom edge (previously a plain photo with a label
+  overlapping the top).
+- **Fully dynamic links grid** – any number of links now render automatically in
+  rows, alternating between 2:1 and 1:2 tile proportions (previously hardcoded to
+  exactly six links).
+- **Configurable tile icons** – icon size and offset from the tile edge are now set
+  globally via `globalSettings` in `data.json`, replacing the previous fixed
+  rotate-on-hover animation.
+- **Multi-entry footer** – the footer now supports a list of credit links instead of
+  a single one, used here to credit both the original author and this fork.
+- **Smoother responsive scaling** – layout width and grid breakpoints scale more
+  gradually across screen sizes instead of jumping at fixed breakpoints (e.g. tiles
+  switch from one to two columns around 400px instead of 768px, and the page uses a
+  fluid width with a max cap instead of stepped widths).
+- **Official brand icons** – swapped generic SVG icons for each platform's official
+  logo assets.
+- **Minor UI polish** – more compact tiles, a stable scrollbar gutter to prevent
+  layout shift, and a placeholder "separator" tile.
+
+This fork also adds an explicit `LICENSE.txt` to formalize the MIT terms referenced
+above, and adapts all descriptions/links/colors to KacperDailyChallenges' own
+socials.
 
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
 
